@@ -6565,8 +6565,8 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   height: 50px;
 }
 .lightlogo{
-  width: 500px;
-  height: 50px;
+  width: 700px;
+  height: 70px;
 }
 
 
@@ -6622,3 +6622,97 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
 .team-item {
   width: 300px;
 } */
+
+
+.titlesec{
+  font: black;
+  }
+
+
+
+  .float{
+    position:fixed;
+    width:40px;
+    height:40px;
+    bottom:50px;
+    right:10px;
+    /* background-color:#25d366; */
+    color:#FFF;
+    /* border-radius:50px; */
+    text-align:center;
+      font-size:30px;
+    /* box-shadow: 2px 2px 3px #999; */
+     z-index:100;
+   
+  }
+  
+  .my-float{
+    margin-top:16px;
+    
+  }
+  .float2{
+    position:fixed;
+    width:40px;
+    height:40px;
+    bottom:100px;
+    right:10px;
+    /* background-color:#25d366; */
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index:100;
+  }
+  
+  .my-float2{
+    margin-top:16px;
+  }
+  
+  
+  /*  */
+
+  @media only screen and (max-width: 767px) {
+    .dsn-container .d-grid {
+      grid-template-columns: 1fr; /* Adjust grid layout to a single column for phone view */
+    }
+
+    .dsn-container .grid-col-1,
+    .dsn-container .grid-col-2,
+    .dsn-container .grid-col-3,
+    .dsn-container .grid-col-4 {
+      text-align: center; /* Center text in each column */
+    }
+
+    .dsn-container .dsn-logo,
+    .dsn-container .dsn-socials,
+    .dsn-container .subtitle,
+    .dsn-container .menu-footer-menu-container,
+    .dsn-container .col-contact,
+    .dsn-container .col-address {
+      margin: 0 auto; /* Center content within each column */
+    }
+  }
+
+
+
+
+
+  /*  */
+
+  @media only screen and (max-width: 767px) {
+    .menu-footer-menu-container {
+      text-align: center; /* Center the text within the container */
+    }
+
+    .menu-footer-menu-container .d-flex.menu {
+      flex-direction: row; /* Display menu items in a column */
+      align-items: center; /* Center items along the cross-axis (vertical centering) */
+    }
+
+    .menu-footer-menu-container .col-6 {
+      width: 100%; /* Full width for columns in phone view */
+      margin-right: 0; /* Remove right margin for the first column */
+      margin-bottom: 15px; /* Add some spacing between columns */
+    }
+  }
